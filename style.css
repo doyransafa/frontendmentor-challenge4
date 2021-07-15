@@ -15,7 +15,7 @@ body {
 .main-container {
     height: 100vh;
     background-image: 
-    url("/images/illustration-woman-online-mobile.svg");
+    url("images/illustration-woman-online-mobile.svg");
     background-position: 
         center top -33px;
     background-repeat: no-repeat;
@@ -26,8 +26,8 @@ body {
 
 .inner-container {
     background-image: 
-        url("/images/bg-pattern-mobile.svg"),
-        url("/images/illustration-woman-online-mobile.svg");
+        url("images/bg-pattern-mobile.svg"),
+        url("images/illustration-woman-online-mobile.svg");
     background-position: 
         center top,
         center top -100px;
@@ -62,12 +62,12 @@ body {
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("/images/icon-arrow-down.svg");
+    background-image: url("images/icon-arrow-down.svg");
     font-weight: normal;
 }
 
 .accordion-button::after {
-    background-image: url("/images/icon-arrow-down.svg");
+    background-image: url("images/icon-arrow-down.svg");
     font-weight: normal;
 }
 
@@ -85,9 +85,9 @@ body {
         max-height: 550px;
         /* width: 80%; */
         background-image: 
-        url("/images/bg-pattern-desktop.svg"),
-        url("/images/illustration-box-desktop.svg"),
-        url("/images/illustration-woman-online-desktop.svg");
+        url("images/bg-pattern-desktop.svg"),
+        url("images/illustration-box-desktop.svg"),
+        url("images/illustration-woman-online-desktop.svg");
         background-position: 
             left -525px center,
             left center,
